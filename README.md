@@ -15,6 +15,10 @@ one household with a one-minute sampling rate over a period of almost
 4 years. Different electrical quantities and some sub-metering values
 are available.
 
+## Running the Code
+The first line of non-comment code should be changed to the proper working directory. This working directory should
+contain the text file with the data. Once this is changed, the code can be run by "sourcing" it to the R prompt.
+Each of the 4 files will create 4 png files that display certain parts of the data.
 
 The following descriptions of the 9 variables in the dataset are taken
 from
