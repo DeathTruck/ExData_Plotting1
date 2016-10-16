@@ -20,7 +20,6 @@ data_names <- names(all_data)
 # Make date and time variable
 new_dates <- as.character(new_data$Date)
 new_time <- as.character(new_data$Time)
-date_times <- paste
 comb_times <- strptime(paste(new_dates, new_time, sep=" "), format = "%d/%m/%Y %H:%M:%S")
 
 # Get Global Active Power and replace ?s with NAs
